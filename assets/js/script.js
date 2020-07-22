@@ -11,9 +11,9 @@ jQuery(window).on("load", function() {
     //  Header Fixed
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1) {
-            $('.header').addClass("animated fadeInDown fixed"), 3000;
+            $('.navigation').addClass("animated fadeInDown fixed"), 3000;
         } else {
-            $('.header').removeClass("animated fadeInDown fixed"), 3000;
+            $('.navigation').removeClass("animated fadeInDown fixed"), 3000;
         }
     });
 
