@@ -277,6 +277,20 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--light-color);
 }
 
+.list-styled {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.list-styled li {
+    list-style: square;
+}
+
 .dots {
     position: absolute;
     z-index: -1;
@@ -679,12 +693,23 @@ h1, h2, h3, h4, h5, h6 {
 .page-intro .page-intro-content {
     padding: 10px 0;
     text-align: center;
+    text-shadow: 0 2px 2px rgba(31, 28, 19, 0.35);
 }
 
 .page-intro .page-intro-content h2 {
     color: var(--light-color);
     font-size: 3rem;
     font-weight: 700;
+}
+
+.page-intro .page-intro-content p {
+    color: var(--light-color);
+    font-size: 1.25rem;
+}
+
+/* breadcrumbs */
+.breadcrumbs {
+    font-size: 12px;
 }
 
 /* Member */
@@ -1249,6 +1274,64 @@ h1, h2, h3, h4, h5, h6 {
 .search-modal .search-form .form-search::placeholder {
     color: var(--light-color);
     font-size: 1.125rem;
+}
+
+/* Collapse Menu */
+.collapse-menu {
+    position: relative;
+}
+
+.collapse-menu .card {
+    background: var(--primary-color);
+    border-radius: 0;
+}
+
+.collapse-menu .card-header {
+    border: none;
+    background: transparent;
+    padding: .5rem 1.25rem;
+    color: var(--light-color);
+}
+
+.collapse-menu .card-header button {
+    color: var(--light-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.collapse-menu .list-group {
+    border: none;
+    border-radius: 0;
+}
+
+.collapse-menu .list-group .list-group-item {
+    color: var(--light-color);
+    background: var(--dark-color);
+}
+
+.collapse-menu .list-group .list-group-item.active {
+    background-color: rgb(141, 154, 61);
+    border-color: rgb(141, 154, 61);;
+}
+
+#membership-nav-tabs .nav-tabs {
+    border: none;
+}
+
+#membership-nav-tabs .nav-tabs .nav-link.active {
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+#membership-nav-tabs .nav-tabs .nav-link {
+    border-color: #dee2e6;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: .5rem 1rem;
+    background-color: var(--light-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
 }
 
 /* Pagination */
