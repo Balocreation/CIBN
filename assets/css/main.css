@@ -1314,17 +1314,17 @@ h1, h2, h3, h4, h5, h6 {
     border-color: rgb(141, 154, 61);;
 }
 
-#membership-nav-tabs .nav-tabs {
+.membership-nav-tabs .nav-tabs {
     border: none;
 }
 
-#membership-nav-tabs .nav-tabs .nav-link.active {
+.membership-nav-tabs .nav-tabs .nav-link.active {
     color: var(--light-color);
     background-color: var(--primary-color);
     border-color: var(--primary-color);
 }
 
-#membership-nav-tabs .nav-tabs .nav-link {
+.membership-nav-tabs .nav-tabs .nav-link {
     border-color: #dee2e6;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
