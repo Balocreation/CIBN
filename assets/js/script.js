@@ -171,10 +171,6 @@ jQuery(window).on("load", function() {
     $('.nav-item.dropdown').on('click', function() {
       $(this).find('.mobile-nav-drop').toggleClass('show-it');
     });
-
-    $(function() {
-      $('#success-modal-one').modal('show');
-    });
     
     $(document).ready(function() {
         $('.collapse.show a[href="' + location.pathname.split("/")[1] + '"]').addClass('active');
