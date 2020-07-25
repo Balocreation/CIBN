@@ -1297,6 +1297,7 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: none;
     font-size: 2rem;
     opacity: .85;
+    z-index: 99;
 }
 
 .search-modal .modal-content {
@@ -1339,6 +1340,7 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: none;
     font-size: 2rem;
     opacity: .85;
+    z-index: 99;
 }
 
 .team-modal .modal-content {

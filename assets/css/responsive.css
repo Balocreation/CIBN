@@ -337,6 +337,12 @@
   .search-list .media-body .search-border {
     width: 40px;
   }
+  
+  .search-modal button.close,
+  .team-modal button.close {
+    top: 15px;
+    right: 15px;
+  }
 
   .partners {
     padding-top: 0;
